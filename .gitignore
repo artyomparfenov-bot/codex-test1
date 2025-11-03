@@ -1,0 +1,20 @@
+node_modules
+.pnpm-store
+.env
+.env.local
+.next
+.dist
+build
+coverage
+.drizzle
+
+# Logs
+logs
+*.log
+
+# Разрешаем страницы логов фронтенда
+!apps/web/app/(dashboard)/logs/
+!apps/web/app/(dashboard)/logs/page.tsx
+
+# DB
+apps/server/src/db/migrations/.cache

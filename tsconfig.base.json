@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@outreach/types": ["packages/types/src"],
+      "@outreach/ui": ["packages/ui/src"],
+      "@outreach/server/*": ["apps/server/src/*"],
+      "@outreach/web/*": ["apps/web/*"]
+    }
+  }
+}
